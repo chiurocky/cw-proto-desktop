@@ -101,6 +101,8 @@ button {
     top: 0;
     left: 0;
     z-index: 20;
+    backdrop-filter: blur(3px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.106);
 }
 
 .ticker-tape {
@@ -124,6 +126,10 @@ button {
 
 .body-content {
     padding: 1rem;
+}
+
+.control {
+    padding: 1rem 2rem;
 }
 
 
